@@ -10,7 +10,6 @@ public class MyArray {
     }
 
     public void setXmlReaders(XmlReader[] xmlReaders, int size){
-        this.xmlReaders= Arrays.copyOf(xmlReaders, size);
+        this.xmlReaders = Arrays.copyOf(xmlReaders, size);
     }
-
 }
